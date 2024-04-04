@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="shortcut icon" href="images/iconUM.jpg" type="image/x-icon" />
+    <title>Random Word Game</title>
+  </head>
+  <body>
+    <div class="container">
+      <select id="change__level">
+        <option value="easy">Easy</option>
+        <option value="medium">Medium</option>
+        <option value="hard">Hard</option>
+      </select>
+      <h1 class="title">Random Word Game</h1>
+      <div class="box">
+        <h3 id="random__word"></h3>
+        <input id="random_word_input" type="text" />
+        <p class="score">Score: <span id="user__score">0</span></p>
+        <p class="time">Time: <span id="user__time">10s</span></p>
+        <button id="start__button">Start</button>
+      </div>
+    </div>
+    <script type="module" src="./js/app.js"></script>
+  </body>
+</html>
